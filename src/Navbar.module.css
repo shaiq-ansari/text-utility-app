@@ -1,0 +1,31 @@
+.navbarLightMode {
+  background-color: #dddddd;
+  color: #2d2b42;
+}
+
+.navbarDarkMode {
+  background-color: #2d2b42;
+  color: #dddddd;
+}
+
+/* Optional: Add smooth transitions for background and text color */
+.navbarLightMode, .navbarDarkMode {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.navbarTitle {
+  padding: 12px;
+  font-size: 1.2rem;
+}
+.about {
+  font-weight: 600;
+}
+.about:hover {
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.activeTab {
+  font-weight: bold;
+  text-decoration: underline;
+  border-bottom: 2px solid #007bff; /* Optional visual indicator */
+}
