@@ -1,0 +1,14 @@
+.aboutLight {
+  background-color: #fafafc;
+  color: #2d2b42;
+}
+
+.aboutDark {
+  background-color: #2d2b42;
+  color: #fafafc;
+}
+
+/* Optional: Add smooth transitions for background and text color */
+.aboutLight, .aboutDark {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
